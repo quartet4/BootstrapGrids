@@ -19,8 +19,12 @@ main > .container {
 }
 
 .hometext {
-  font-family: modesto-open-shadow, sans-serif;
+  font-family: "Monoton", regular;
   font-weight: 400;
   font-style: normal;
   color: rgb(195, 255, 0);
+}
+
+.minheight {
+  min-height: 70vh;
 }
