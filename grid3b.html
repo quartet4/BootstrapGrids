@@ -76,17 +76,17 @@
 
     <main class="flex-shrink-0">
       <div class="container h-100 minheight">
-        <ul class="nav nav-pills mb-1">
-          <li class="nav-item">
-            <a href="/grid3.html" class="nav-link active" aria-current="page"
-              >Grid 3</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="/grid3b.html" class="nav-link">Grid 3B</a>
-          </li>
-        </ul>
         <div class="row h-100">
+          <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+              <a href="/grid3.html" class="nav-link">Grid 3</a>
+            </li>
+            <li class="nav-item">
+              <a href="/grid3b.html" class="nav-link active" aria-current="page"
+                >Grid 3B</a
+              >
+            </li>
+          </ul>
           <!--LEFT COLUMN-->
           <div class="col-7 h-100">
             <div class="bg-secondary text-light p-2 h-100">
@@ -136,78 +136,35 @@
             </div>
           </div>
           <!--RIGHT COLUMN-->
-          <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+          <div class="col-5">
             <!-- RIGHT TOP COLUMN -->
-            <div class="bg-dark text-light h-50 p-2 overflow-auto">
-              <h1>Article Title</h1>
-              <p>
-                Lorem ipsum dolor sit amet. At explicabo nihil id laborum
-                sapiente qui voluptate iste et optio eligendi ut autem culpa. Ut
-                libero sequi qui galisum enim id soluta quidem ut debitis
-                internos aut accusantium nihil et similique nemo. Sit porro
-                minima et neque quaerat ex magnam aspernatur aut nulla possimus
-                ut excepturi sint est dolores excepturi sit minima porro! Est
-                iure eligendi et blanditiis galisum a galisum harum hic
-                voluptatem fugit qui dignissimos nihil qui beatae dicta.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet. Sit quidem error non quaerat dolorum
-                ab eligendi dolores ex voluptate quas sit dolore voluptates qui
-                veritatis dolor? Et repudiandae voluptate ut quibusdam tempore
-                et ullam doloremque aut deserunt neque ea atque internos ad
-                tempore eius id mollitia eaque.
-              </p>
-              <p>
-                Et officiis libero in beatae iure et Quis minus ut dolorem
-                consequatur aut odio voluptas 33 expedita culpa et eligendi
-                reiciendis. Ex accusantium sint aut ipsa molestias qui
-                praesentium dolor. Aut optio blanditiis qui veritatis omnis est
-                distinctio maiores aut alias dignissimos est quidem dicta. Sit
-                soluta quaerat id ratione architecto et unde delectus sed quis
-                enim ut omnis adipisci eum nihil voluptas vel neque nobis.
-              </p>
-              <p>
-                Eum deserunt optio qui molestiae fugit vel possimus cumque qui
-                saepe quia ut quasi adipisci et consequuntur maxime et modi
-                enim? Ut dicta maiores et ratione earum qui quia similique sed
-                accusantium odio ab enim dolore. Ea rerum ipsam quo repellendus
-                quisquam ea commodi aliquam ut nesciunt impedit.
-              </p>
+            <div class="bg-secondary text-light p-2">
+              <form class="d-flex">
+                <input
+                  type="search"
+                  class="form-control me-2"
+                  placeholder="search"
+                  aria-label="search"
+                />
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>
+              </form>
             </div>
             <!-- RIGHT BOTTOM COLUMN -->
-            <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
-              <h1>Article Title</h1>
-              <p>
-                Lorem ipsum dolor sit amet. Ut consequuntur nihil et rerum quasi
-                et doloremque rerum qui excepturi nemo. Qui nisi eveniet 33
-                blanditiis voluptatem rem quaerat quam. Id laudantium tempore
-                est voluptatum veritatis eos alias possimus.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet. Eos voluptatem ullam hic explicabo
-                omnis ea tempora doloribus ea facilis tempore et fugiat
-                voluptatem hic ducimus ducimus aut vero suscipit. Vel tenetur
-                sint aut dolorem sunt ea consequatur obcaecati quo cupiditate
-                mollitia quo omnis molestiae. Aut repellat libero est enim nisi
-                At nihil adipisci aut perspiciatis libero aut veniam
-                consequuntur. Id possimus dolorem At quia delectus nam harum
-                dolorum eum voluptatem similique et deleniti vitae!
-              </p>
-              <p>
-                Ut velit ducimus rem consequuntur vero aut rerum atque non
-                inventore quidem et laudantium dolorem qui quisquam maxime. At
-                porro voluptas aut rerum omnis et reiciendis magnam non
-                aspernatur dolor ut praesentium iusto sit labore delectus sed
-                quibusdam recusandae.
-              </p>
-              <p>
-                Eum porro nihil et nulla omnis qui voluptatem facilis! Sed
-                pariatur exercitationem qui autem culpa id quia error et
-                voluptatum dolores aut corporis dolorem.
-              </p>
-            </div>
-            <div class="bg-dark text-light border-top p-2">
-              <button class="btn btn-light" type="button">Read More</button>
+            <div class="bg-dark text-light mt-2 p-2">
+              <h5>More Articles</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Article One</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Article Two</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Article Three</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
